@@ -1,0 +1,115 @@
+body {
+    font-family: "Berlin Sans", Verdana, Geneva, Tahoma, sans-serif;
+    margin: 10px;
+    min-height: 1vh;
+    background-color: rgba(250, 235, 215, 0.058);
+    }
+
+header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient( 135deg, #81fbb86c 10%, #28c76f5a 100%);
+    font-size: 16px;
+    border-radius: 4px;
+    max-width: 50%;
+    margin: auto;
+    margin-top: 100px;
+    min-height: 250px;
+}
+
+.portfolio-text {
+    font-size: 60px;
+}
+
+.card-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    max-width: 160%;
+    margin: auto;
+    font-size: 18px;
+    margin-top: 150px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 20px;
+    background-image: linear-gradient( 135deg, #81fbb809 10%, #28c76f0e 100%);
+    border: 1px solid rgba(0, 0, 0, 0.058);
+    padding: 40px;
+    max-width: 60%;
+    border-radius: 8px;
+    min-height: 1200px;
+}
+
+main h3 {
+    padding: 10px;
+    
+}
+
+.image1 {
+    background-repeat: no-repeat;
+    background-position: center;
+    max-width: 87%;
+    margin-top: 70px;
+}
+
+.image2 {
+    background-repeat: no-repeat;
+    background-position: center;
+    max-width: 100%;
+    margin-top: 70px;
+}
+
+.image3 {
+    background-repeat: no-repeat;
+    background-position: center;
+    max-width: 89%;
+    margin-top: 70px;
+}
+
+a {
+    text-decoration: none;
+    font-size: 22px;
+}
+
+main h2 {
+    padding-top: 10px;
+}
+
+footer {
+    margin-top: auto;
+    margin: auto;
+    max-width: 99%;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    flex-direction: row;
+    font-size: 1.2rem;
+    border-radius: 4px;
+    background-image: linear-gradient( 135deg, #81fbb86c 10%, #28c76f5a 100%);
+    padding: 3rem;
+    color: black;
+    padding-bottom: 2rem;
+}
+
+.copyright {
+    font-weight: 400;
+    text-align: center;
+    font-size: 1rem;
+    margin-top: 3rem;
+  }
+
+@media (max-width:100px) {
+    .card {
+        min-width: none;
+        max-width: 300px;
+    }
+  }
